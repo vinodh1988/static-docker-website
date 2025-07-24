@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jenkins & Its Benefits</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #232f3e;
+            color: #fff;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        .jenkins-logo {
+            width: 80px;
+            margin-bottom: 1rem;
+        }
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            padding: 2rem;
+        }
+        h2 {
+            color: #232f3e;
+        }
+        .benefits {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .benefit {
+            flex: 1 1 220px;
+            background: #f9fafb;
+            border-radius: 6px;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+        }
+        .benefit i {
+            font-size: 2.5rem;
+            color: #f0ad4e;
+            margin-bottom: 0.5rem;
+        }
+        @media (max-width: 600px) {
+            .benefits {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://www.jenkins.io/images/logos/jenkins/jenkins.png" alt="Jenkins Logo" class="jenkins-logo">
+        <h1>Jenkins</h1>
+        <p>Automate your software development with Jenkins</p>
+    </header>
+    <main>
+        <h2>What is Jenkins?</h2>
+        <p>
+            Jenkins is an open-source automation server widely used for continuous integration and continuous delivery (CI/CD). It helps automate the building, testing, and deployment of software, making development faster and more reliable.
+        </p>
+        <h2>Benefits of Jenkins</h2>
+        <div class="benefits">
+            <div class="benefit">
+                <i class="fas fa-rocket"></i>
+                <h3>Faster Delivery</h3>
+                <p>Automates repetitive tasks, speeding up the software release process.</p>
+            </div>
+            <div class="benefit">
+                <i class="fas fa-sync-alt"></i>
+                <h3>Continuous Integration</h3>
+                <p>Integrates code changes frequently, ensuring early detection of issues.</p>
+            </div>
+            <div class="benefit">
+                <i class="fas fa-plug"></i>
+                <h3>Extensible</h3>
+                <p>Supports hundreds of plugins to integrate with various tools and platforms.</p>
+            </div>
+            <div class="benefit">
+                <i class="fas fa-users"></i>
+                <h3>Community Support</h3>
+                <p>Large, active community provides support, plugins, and documentation.</p>
+            </div>
+            <div class="benefit">
+                <i class="fas fa-cogs"></i>
+                <h3>Customizable</h3>
+                <p>Highly configurable to fit different workflows and project needs.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
